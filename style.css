@@ -13,7 +13,7 @@ body {
     color: #e7a61a;
     background:
         linear-gradient(rgba(25, 25, 26, 0.6), rgba(14, 14, 15, 0.6)),
-        url("images/background.png");
+        /* url("images/background.png"); */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
