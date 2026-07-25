@@ -12,7 +12,7 @@ body {
     line-height: 1.6;
     color: #202124;
     background:
-        linear-gradient(rgba(47, 47, 48, 0.6), rgba(35, 35, 36, 0.6)),
+        linear-gradient(rgba(25, 25, 26, 0.6), rgba(14, 14, 15, 0.6)),
         url("images/background.png");
     background-size: cover;
     background-position: center;
