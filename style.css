@@ -52,6 +52,7 @@ nav h1 {
     border-radius: 50%;
     object-fit: cover;
     cursor: pointer;
+    user-select: none;
 }
 
 .lightbox {
@@ -73,6 +74,7 @@ nav h1 {
     max-width: 90vw;
     max-height: 90vh;
     border-radius: 8px;
+    user-select: none;
 }
 
 .nav-links {

@@ -8,7 +8,8 @@ const profilePic = document.getElementById("profile-pic");
 const lightbox = document.getElementById("lightbox");
 
 if (profilePic && lightbox) {
-    profilePic.addEventListener("dblclick", () => {
+    profilePic.addEventListener("dblclick", (event) => {
+        event.preventDefault();
         lightbox.classList.add("active");
     });
 
