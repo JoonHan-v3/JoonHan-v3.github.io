@@ -23,7 +23,7 @@ body {
 header {
     position: sticky;
     top: 0;
-    background: white;
+    background: rgb(39, 39, 39);
     border-bottom: 1px solid #dddddd;
 }
 
