@@ -55,11 +55,11 @@ main {
 }
 
 section {
-    padding: 20px 0;
+    padding: 70px 0;
 }
 
 .hero {
-    min-height: 70vh;
+    min-height: 20vh;
     display: flex;
     align-items: center;
 }
