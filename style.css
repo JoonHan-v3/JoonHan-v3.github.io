@@ -10,7 +10,7 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
-    color: #202124;
+    color: #e7a61a;
     background:
         linear-gradient(rgba(25, 25, 26, 0.6), rgba(14, 14, 15, 0.6)),
         url("images/background.png");
