@@ -8,12 +8,12 @@ html {
 
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Monaco, monospace;
     line-height: 1.6;
     color: #e7a61a;
     background:
         linear-gradient(rgba(17, 17, 17, 0.6), rgba(18, 18, 19, 0.6)),
-        url("images/background.jpg");
+        url("images/background.png");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
