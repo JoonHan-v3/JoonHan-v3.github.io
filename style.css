@@ -141,6 +141,7 @@ section {
 }
 
 .more-indicator {
+    display: block;
     color: rgba(231, 166, 26, 0.5);
 }
 
