@@ -218,6 +218,18 @@ section {
 .project-card h3 {
     margin-top: 0;
     margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+
+.project-card h3::after {
+    content: "+";
+}
+
+.project-card.expanded h3::after {
+    content: "\2212";
 }
 
 .technology {
