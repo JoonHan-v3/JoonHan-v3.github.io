@@ -179,10 +179,10 @@ section {
 
 @keyframes illuminate {
     from {
-        opacity: 0.05;
+        opacity: 0;
     }
     to {
-        opacity: 0.25;
+        opacity: 0.18;
     }
 }
 
