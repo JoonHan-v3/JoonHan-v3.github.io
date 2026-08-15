@@ -36,3 +36,11 @@ document.querySelectorAll(".project-card").forEach((card) => {
         });
     }
 });
+
+const aboutCard = document.querySelector(".about-card");
+
+if (aboutCard) {
+    aboutCard.addEventListener("click", () => {
+        aboutCard.classList.toggle("expanded");
+    });
+}
