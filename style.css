@@ -99,6 +99,15 @@ section {
     padding: 10px 0;
 }
 
+#about {
+    background: transparent;
+    transition: background 0.2s ease;
+}
+
+#about:hover {
+    background: rgb(39, 39, 39);
+}
+
 .hero {
     min-height: 10vh;
     display: flex;
