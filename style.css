@@ -173,7 +173,7 @@ section {
     background: rgb(231, 166, 26);
     opacity: 0;
     pointer-events: none;
-    animation: illuminate 10s ease-in-out infinite alternate;
+    animation: illuminate 6s ease-in-out infinite alternate;
 }
 
 @keyframes illuminate {
