@@ -157,6 +157,7 @@ section {
 
 .project-card {
     position: relative;
+    z-index: 0;
     padding: 24px;
     background: transparent;
     border: 1px solid #dddddd;
@@ -174,7 +175,7 @@ section {
     background: rgb(54, 134, 172);
     opacity: 0;
     pointer-events: none;
-    animation: illuminate s ease-in-out infinite alternate;
+    animation: illuminate 3s ease-in-out infinite alternate;
 }
 
 @keyframes illuminate {
