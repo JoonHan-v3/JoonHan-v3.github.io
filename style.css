@@ -205,6 +205,15 @@ section {
     background: rgb(39, 39, 39);
 }
 
+.project-card.expanded {
+    background: rgb(39, 39, 39);
+}
+
+.project-card.expanded::before {
+    animation: none;
+    opacity: 0;
+}
+
 .project-card h3 {
     margin-top: 0;
     margin-bottom: 0;
