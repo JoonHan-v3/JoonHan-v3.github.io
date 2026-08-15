@@ -100,7 +100,10 @@ section {
 }
 
 #about {
+    padding: 24px;
     background: transparent;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
     transition: background 0.2s ease;
 }
 
