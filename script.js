@@ -23,8 +23,16 @@ if (profilePic && lightbox) {
     });
 }
 
-document.querySelectorAll(".project-card h3").forEach((title) => {
-    title.addEventListener("click", () => {
-        title.closest(".project-card").classList.toggle("expanded");
+document.querySelectorAll(".project-card").forEach((card) => {
+    card.addEventListener("click", () => {
+        card.classList.toggle("expanded");
     });
+
+    const link = card.querySelector(".project-details a");
+
+    if (link) {
+        link.addEventListener("click", (event) => {
+            event.stopPropagation();
+        });
+    }
 });

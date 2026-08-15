@@ -163,6 +163,7 @@ section {
     border-radius: 10px;
     transition: background 0.2s ease;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .project-card::before {
@@ -173,7 +174,7 @@ section {
     background: rgb(54, 134, 172);
     opacity: 0;
     pointer-events: none;
-    animation: illuminate 4s ease-in-out infinite alternate;
+    animation: illuminate 3s ease-in-out infinite alternate;
 }
 
 @keyframes illuminate {
@@ -207,7 +208,6 @@ section {
 .project-card h3 {
     margin-top: 0;
     margin-bottom: 0;
-    cursor: pointer;
 }
 
 .technology {
