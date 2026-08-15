@@ -101,7 +101,7 @@ section {
 
 .about-card {
     padding: 24px;
-    background: transparent;
+    background: rgb(39, 39, 39);
     border: 1px solid #dddddd;
     border-radius: 10px;
     transition: background 0.2s ease;
