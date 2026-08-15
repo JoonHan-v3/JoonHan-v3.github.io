@@ -174,15 +174,15 @@ section {
     background: rgb(54, 134, 172);
     opacity: 0;
     pointer-events: none;
-    animation: illuminate 3s ease-in-out infinite alternate;
+    animation: illuminate s ease-in-out infinite alternate;
 }
 
 @keyframes illuminate {
     from {
-        opacity: 0;
+        opacity: 5;
     }
     to {
-        opacity: 0.18;
+        opacity: 0.25;
     }
 }
 
@@ -203,15 +203,6 @@ section {
 
 .project-card:hover {
     background: rgb(39, 39, 39);
-}
-
-.project-card.expanded {
-    background: rgb(39, 39, 39);
-}
-
-.project-card.expanded::before {
-    animation: none;
-    opacity: 0;
 }
 
 .project-card h3 {
