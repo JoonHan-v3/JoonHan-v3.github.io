@@ -148,6 +148,11 @@ section {
     background: transparent;
     border: 1px solid #dddddd;
     border-radius: 10px;
+    transition: background 0.2s ease;
+}
+
+.project-card:hover {
+    background: rgb(39, 39, 39);
 }
 
 .project-card h3 {
