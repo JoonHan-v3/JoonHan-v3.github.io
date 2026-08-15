@@ -156,11 +156,33 @@ section {
 }
 
 .project-card {
+    position: relative;
     padding: 24px;
     background: transparent;
     border: 1px solid #dddddd;
     border-radius: 10px;
     transition: background 0.2s ease;
+    overflow: hidden;
+}
+
+.project-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: rgb(231, 166, 26);
+    opacity: 0;
+    pointer-events: none;
+    animation: illuminate 4s ease-in-out infinite alternate;
+}
+
+@keyframes illuminate {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 0.18;
+    }
 }
 
 
