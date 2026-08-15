@@ -99,7 +99,7 @@ section {
     padding: 10px 0;
 }
 
-#about {
+.about-card {
     padding: 24px;
     background: transparent;
     border: 1px solid #dddddd;
@@ -107,7 +107,7 @@ section {
     transition: background 0.2s ease;
 }
 
-#about:hover {
+.about-card:hover {
     background: rgb(39, 39, 39);
 }
 
