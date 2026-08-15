@@ -22,3 +22,9 @@ if (profilePic && lightbox) {
         }
     });
 }
+
+document.querySelectorAll(".project-card h3").forEach((title) => {
+    title.addEventListener("click", () => {
+        title.closest(".project-card").classList.toggle("expanded");
+    });
+});
