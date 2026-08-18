@@ -128,7 +128,7 @@ section {
 }
 
 .about-card.expanded {
-    background: rgb(17, 17, 17);
+    background: rgb(32, 32, 32);
 }
 
 .about-card.expanded::before {
