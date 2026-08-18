@@ -287,6 +287,13 @@ section {
 .technology {
     font-size: 0.9rem;
     font-weight: bold;
+    list-style: disc outside;
+    padding-left: 20px;
+    color: rgba(231, 166, 26, 0.5);
+}
+
+.technology li {
+    margin-bottom: 6px;
 }
 
 .skills {
