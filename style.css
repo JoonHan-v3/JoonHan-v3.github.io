@@ -10,7 +10,7 @@ body {
     margin: 0;
     font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Monaco, monospace;
     line-height: 1.6;
-    color: #e7a61a;
+    color: #8a6c2d;
     background:
         linear-gradient(rgba(17, 17, 17, 0.6), rgba(18, 18, 19, 0.6)),
         url("images/background.png");
@@ -128,7 +128,7 @@ section {
 }
 
 .about-card.expanded {
-    background: rgb(39, 39, 39);
+    background: rgb(17, 17, 17);
 }
 
 .about-card.expanded::before {
