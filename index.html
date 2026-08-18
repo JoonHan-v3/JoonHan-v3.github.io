@@ -84,6 +84,35 @@
             <div class="project-grid">
 
                 <article class="project-card">
+                    <h3>Robotics Lawn Mower — Version 3</h3>
+
+                    <div class="project-details">
+            
+                        <p>
+                            A full simulation of a GPS-guided autonomous lawn mower: a differential-drive 
+                            robot with a spinning cutting deck that surveys a GPS-defined boundary, plans 
+                            a complete coverage path, and mows the entire lawn unattended. Wheel odometry, 
+                            simulated GPS, and IMU are fused through a dual EKF into a persistent global frame, 
+                            giving the robot an absolute sense of position on the field rather than a drifting local estimate. 
+                            A Nav2 stack handles path following and lidar-based obstacle avoidance, 
+                            and a custom boustrophedon planner generates the back-and-forth mowing pattern from the surveyed boundary polygon.
+
+                        </p>
+
+                        <p class="technology">
+                            <li>Robotics: ROS 2 Jazzy, Gazebo Harmonic (gz-sim8), ros_gz bridge</li>
+                            <li>Navigation: Nav2 (Regulated Pure Pursuit controller, NavFn global planner, behavior tree navigator, lifecycle management, layered costmaps)</li>
+                            <li>Localization: robot_localization dual EKF (local odom + global map), navsat_transform_node, GPS/IMU/lidar sensor simulation</li>
+                            <li>Languages/Tools: Python (rclpy), Shapely, pymap3d, URDF/Xacro, SDF, colcon/ament</li>
+                                                </p>
+
+                        <a href="https://github.com/JoonHan-v3/lawn_mower_v3">
+                            View source code
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card">
                     <h3>Robotics Lawn Mower — Version 2</h3>
 
                     <div class="project-details">
@@ -100,7 +129,10 @@
                         </p>
 
                         <p class="technology">
-                            Stack: ROS2 · Xacro · URDF · Gazebo · RViz . Nav2 . robot_localization
+                            <li>Robotics: ROS 2 Jazzy, Gazebo Harmonic (gz-sim8), ros_gz bridge</li>
+                            <li>Navigation: Nav2</li> 
+                            <li>Localization: robot_localization</li>
+                            <li>Languages/Tools: Python, rclpy, Shapely, pymap3d, URDF/Xacro, SDF, colcon/ament</li>
                         </p>
 
                         <a href="https://github.com/JoonHan-v3/lawn_mower_v2">
@@ -129,7 +161,8 @@
                         </p>
 
                         <p class="technology">
-                            Stack: ROS 2 · Xacro · URDF · Gazebo · RViz
+                            <li>Robotics: ROS 2 Jazzy, Gazebo Harmonic (gz-sim8), ros_gz bridge</li>
+                            <li>Languages/Tools: Python, rclpy, Shapely, pymap3d, URDF/Xacro, SDF, colcon/ament</li>
                         </p>
 
                         <a href="https://github.com/JoonHan-v3/robotics_lawn_mower_gazebo_v1">
