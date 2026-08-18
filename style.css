@@ -310,7 +310,7 @@ section {
 
 .skills span {
     padding: 8px 14px;
-    background: rgb(124, 123, 123, 0.6);
+    background: rgba(124, 123, 123, 0.692);
     border: 1px solid #867c7c;
     border-radius: 20px;
 }
