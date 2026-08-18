@@ -10,7 +10,7 @@ body {
     margin: 0;
     font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Monaco, monospace;
     line-height: 1.6;
-    color: #c09028;
+    color: #e09c07;
     background:
         linear-gradient(rgba(17, 17, 17, 0.6), rgba(18, 18, 19, 0.6)),
         url("images/background.png");
