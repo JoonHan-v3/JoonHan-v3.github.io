@@ -320,7 +320,7 @@ section {
 footer {
     padding: 30px;
     text-align: center;
-    background: #202124;
+    background: rgba(32, 33, 36, 0.6);
     color: white;
 }
 
