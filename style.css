@@ -124,7 +124,7 @@ section {
 }
 
 .about-card:hover {
-    background: rgb(39, 39, 39);
+    background: rgb(32, 32, 32);
 }
 
 .about-card.expanded {
@@ -255,11 +255,11 @@ section {
 }
 
 .project-card:hover {
-    background: rgb(39, 39, 39);
+    background: rgb(32, 32, 32);
 }
 
 .project-card.expanded {
-    background: rgb(39, 39, 39);
+    background: rgb(32, 32, 32);
 }
 
 .project-card.expanded::before {
