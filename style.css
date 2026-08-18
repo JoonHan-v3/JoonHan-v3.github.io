@@ -284,6 +284,10 @@ section {
     content: "\2212";
 }
 
+.project-details a {
+    color: rgba(243, 242, 240, 0.685);
+}
+
 .technology {
     font-size: 0.8rem;
     font-weight: bold;
