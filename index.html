@@ -84,6 +84,37 @@
             <div class="project-grid">
 
                 <article class="project-card">
+                    <h3>Robotics Lawn Mower — Version 4</h3>
+
+                    <div class="project-details">
+            
+                        <p>
+                            A full simulation of a GPS-guided autonomous lawn mower built with ROS 2 and Gazebo.
+                            The differential-drive robot autonomously covers a GPS-defined lawn using a serpentine
+                            coverage path while wheel odometry, GPS, and IMU data are fused through dual EKFs for
+                            accurate local and global localization. Nav2 handles path following and lidar-based
+                            navigation, while a custom coverage planner generates mowing paths for non-convex lawn
+                            boundaries. An obstacle-aware coverage executor continuously monitors the global costmap,
+                            dynamically replans around detected obstacles, and rejoins the original mowing path to
+                            continue coverage with minimal skipped area.
+                        </p>
+
+                        <ul class="technology">
+                            <li>Robotics: ROS 2 Jazzy, Gazebo Harmonic (gz-sim8), ros_gz bridge, RViz</li>
+                            <li>Navigation: Nav2, Regulated Pure Pursuit, NavFn, FollowPath, behavior trees, layered costmaps</li>
+                            <li>Localization: robot_localization dual EKF, navsat_transform_node, wheel odometry, simulated GPS and IMU</li>
+                            <li>Perception & Replanning: lidar, global costmap, obstacle detection, dynamic path replanning and recovery</li>
+                            <li>Coverage Planning: GPS boundary conversion, Shapely, boustrophedon/serpentine coverage planning, non-convex polygons</li>
+                            <li>Languages/Tools: Python (rclpy), Shapely, pymap3d, URDF/Xacro, SDF, colcon/ament</li>
+                        </ul>
+
+                        <a href="https://github.com/JoonHan-v3/lawn_mower_v4" target="_blank" rel="noopener noreferrer">
+                            View source code
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card">
                     <h3>Robotics Lawn Mower — Version 3</h3>
 
                     <div class="project-details">
