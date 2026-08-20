@@ -248,7 +248,7 @@ section {
 }
 
 .project-card.expanded .project-details {
-    max-height: 500px;
+    max-height: 2000px;
     margin-top: 16px;
     opacity: 1;
 }
