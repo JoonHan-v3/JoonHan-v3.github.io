@@ -201,6 +201,35 @@
                         </a>
                     </div>
                 </article>
+
+                <article class="project-card">
+                    <h3>LLM-APR Pipeline — Automated Security Vulnerability Repair</h3>
+
+                    <div class="project-details">
+                
+                        <p>
+                            A research pipeline that asks whether LLMs can autonomously patch real-world security 
+                            vulnerabilities in C/C++ codebases. Each vulnerability is sourced from the ARVO dataset 
+                            as a Docker container with the vulnerable source, a crashing proof-of-concept input, 
+                            and a sanitizer report. Clang tooling extracts the implicated functions and call graph, 
+                            an LLM performs semantic analysis and root-cause localization, and a dialogue-based 
+                            prompting chain generates candidate patches that are compiled and replayed against the original 
+                            crash inside the container to confirm the fix. Four ablated pipeline variants isolate 
+                            which reasoning stages (root-cause localization, semantic analysis, explicit patching strategy) 
+                            actually move the needle, benchmarked across 18 real vulnerabilities in libexif and libplist.
+                        </p>
+
+                        <ul class="technology">
+                            <li>Pipeline: Clang/LLVM LibTooling (call-graph & function extraction), Docker/ARVO sandboxed patch testing, multi-stage LLM dialogue (analysis → localization → strategy → patch), model-escalation retry loop (GPT-4.1-nano → mini → full)</li>
+                            <li>LLM/APIs: OpenAI API (GPT-4.1 family), tiktoken</li>
+                            <li>Languages/Tools: Python, C/C++, CMake, Bash, jq, docker SDK for Python</li>
+                        </ul>
+
+                        <a href="https://github.com/JoonHan-v3/LLM-APR_Pipeline" target="_blank" rel="noopener noreferrer">
+                            View source code
+                        </a>
+                    </div>
+                </article>
             </div>
         </section>
 
