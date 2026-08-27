@@ -203,6 +203,37 @@
                 </article>
 
                 <article class="project-card">
+                    <h3>Tiny YOLO SAM — Zero-Shot Instance Segmentation via Detection-Guided Prompting
+</h3>
+
+                    <div class="project-details">
+                
+                        <p>
+                            A pipeline that composes a real-time object detector with a distilled Segment 
+                            Anything model to get pixel-accurate instance masks without any segmentation-specific 
+                            training. YOLOv12 proposes class-labeled bounding boxes for a scene; each box, together 
+                            with its center point, is fed to TinySAM (a knowledge-distilled, quantization-friendly 
+                            SAM variant) as a prompt, which returns the best-scoring mask candidate per detection. 
+                            Predicted boxes are remapped from YOLO's 80-class label space back to official COCO category 
+                            IDs so the composed detector+segmenter can be scored end-to-end, zero-shot, against the COCO 
+                            val2017 instance segmentation benchmark (5,000 images) via pycocotools AP/AR — measuring how 
+                            much mask quality survives when box prompts come from a live detector instead of ground-truth 
+                            boxes.
+                        </p>
+
+                        <ul class="technology">
+                            <li>Pipeline: YOLOv12 box detection & COCO category-ID remapping, box+center-point prompting into TinySAM (best-mask selection by predicted IoU score), pycocotools COCOeval zero-shot scoring on val2017</li>
+                            <li>Models: YOLOv12x (customized ultralytics fork), TinySAM vit_t (tinysam_42.3.pth distilled SAM checkpoint)</li>
+                            <li>Languages/Tools: Python, PyTorch, OpenCV, pycocotools, CUDA/CPU auto-dispatch</li>
+                        </ul>
+
+                        <a href="https://github.com/JoonHan-v3/Tiny_YOLO_SAM" target="_blank" rel="noopener noreferrer">
+                            View source code
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card">
                     <h3>LLM-APR Pipeline — Automated Security Vulnerability Repair</h3>
 
                     <div class="project-details">
